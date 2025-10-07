@@ -10,4 +10,9 @@ for (let i = 1; i <= 100; i++) {
     console.log("FizzBuzz");
   }
 
+  // Se è solo divisibile per 3
+  else if (i % 3 === 0) {
+    console.log("Fizz");
+  }
+  //
 }
