@@ -18,4 +18,9 @@ for (let i = 1; i <= 100; i++) {
   else if (i % 5 === 0) {
     console.log("Buzz");
   }
+
+  // Se non è divisibile né per 3 né per 5
+  else {
+    console.log(i);
+  }
 }
